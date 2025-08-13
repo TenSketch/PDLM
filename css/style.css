@@ -1,0 +1,16 @@
+
+
+
+
+.navbar-brand{
+    /* display: unset!important; */
+    /* outline: 1px red solid; */
+    width: min(25%, 150px);
+}
+.logo{
+    
+}
+
+.hero{
+    background-image: url(/assets/images/groupPhoto-Sathya_Special_school.jpg);
+}
