@@ -1,7 +1,14 @@
 
+:root{
+    --header-height: 20vh;
+}
 
-
-
+nav{
+    min-height: var(--header-height);
+}
+main{
+    /* padding-top: var(--header-height); */
+}
 .navbar-brand{
     /* display: unset!important; */
     /* outline: 1px red solid; */
@@ -13,4 +20,13 @@
 
 .hero{
     background-image: url(/assets/images/groupPhoto-Sathya_Special_school.jpg);
+}
+
+.pt-5{
+    padding-top: 5rem;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
 }
