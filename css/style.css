@@ -1,13 +1,13 @@
 
 :root{
-    --header-height: 20vh;
+    --header-height: 15vh;
 }
 
 nav{
     min-height: var(--header-height);
 }
 main{
-    /* padding-top: var(--header-height); */
+  padding-top: var(--header-height);
 }
 .navbar-brand{
     /* display: unset!important; */
@@ -17,9 +17,14 @@ main{
 .logo{
     
 }
+.bg-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 .hero{
-    background-image: url(/assets/images/groupPhoto-Sathya_Special_school.jpg);
+    background-image: url(/assets/images/Sathya_School-Selimedu-group-photo.jpg);
 }
 
 .pt-5{

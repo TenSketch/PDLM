@@ -22,9 +22,9 @@
 <body>
     <header>
         <!-- place navbar here -->
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top py-0">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand py-0" href="#">
                     <img src="assets/images/PDLM-AI.png" alt="Logo PDLM" class="img-fluid logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -33,9 +33,12 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0"><ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 g-4">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="success-stories.html">Success stories</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about-us.html">About us</a>
@@ -44,11 +47,14 @@
                             <a class="nav-link" href="our-work.html">Our work</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="success-stories.html">Success stories</a>
+                            <a class="nav-link btn btn-primary text-light" href="volunteer.html">Get involved</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="volunteer.html">Get involved</a>
-                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="">
+                                <i class="fa fa-mobile" aria-hidden="true"></i>
+                            </a>
+                        </li> -->
+
                         <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
@@ -70,7 +76,7 @@
                         <li class="nav-item">
                             <a class="nav-link disabled">Disabled</a>
                         </li> -->
-                    </ul></ul>
+                    </ul>
                     <!-- <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
